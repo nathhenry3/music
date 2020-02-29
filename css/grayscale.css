@@ -52,10 +52,10 @@
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.75);
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255);
   }
   #mainNav .nav-link:active {
     color: white;
@@ -72,13 +72,13 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #ffffff;
+    color: grey;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #ffffff;
+    color: grey;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #ffffff;
+    color: grey;
     outline: none;
     border-bottom: 0.25rem solid #ffffff;
   }
@@ -277,7 +277,7 @@ a {
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #ffffff;
+  color: #161616;
 }
 
 .bg-black {
@@ -285,11 +285,11 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #ffffff !important;
+  background-color: #161616 !important;
 }
 
 .text-primary {
-  color: #ffffff !important;
+  color: #161616 !important;
 }
 
 footer {
