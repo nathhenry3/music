@@ -84,6 +84,48 @@
   }
 }
 
+@media (max-width: 992px) {
+  #mainNav {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+  }
+  #mainNav .navbar-brand {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  #mainNav .nav-link {
+    transition: none;
+    color: rgba(255, 255, 255, 0.75);
+  }
+  #mainNav .nav-link:hover {
+    color: rgba(255, 255, 255);
+  }
+  #mainNav .nav-link:active {
+    color: black;
+  }
+  #mainNav.navbar-shrink {
+    background-color: #fff;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    color: #161616;
+  }
+  #mainNav.navbar-shrink .nav-link {
+    color: #161616;
+  }
+  #mainNav.navbar-shrink .nav-link:hover {
+    color: grey;
+  }
+  #mainNav.navbar-shrink .nav-link:active {
+    color: grey;
+  }
+  #mainNav.navbar-shrink .nav-link.active {
+    color: grey;
+    outline: none;
+  }
+}
+
 .masthead {
   position: relative;
   width: 100%;
